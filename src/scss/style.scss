@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import "bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: #dbfff4;
+}
+
+#btnBackToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.fa-arrow-up:before {
+    content: "\2191"
+}
+
+.paral {
+    background-image: url('/coding.jpg');   
+    min-height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.paral-2 {
+    background-image: url('/coding-2.jpg');
+    min-height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
